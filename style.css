@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.hero
+{
+    width: 100%;
+    height: 100vh;  
+    /* vh- view height  its used to give the height 100% in this screen*/
+    overflow: hidden;
+
+}
+.hero-img
+{
+    width: 100%;
+    height: 100vh;
+    transform: scale(1.2);
+    /* scale is going to increase the size of image */
+    /* opacity: 20%; */
+}
+.tint
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+}
+
+.content
+{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    color: white;
+    /* text-align: center;
+    width: 100%;
+    top: 50%;   */
+    width: 840px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+/*tranform on x axis,y axis and it is use to bring the content in the center */
+
+.nav
+{
+    position: absolute;
+    top: 6%;
+    left: 39%;
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+    transform: translate(-50%,-50%);
+}
+
+
+.title
+{
+    font-size: 55px;
+    text-align: center;
+    /* font-weight: 800; */
+}
+
+.nav-flex
+
+{
+    display: flex;
+    gap: 15px;
+    margin-left:85%;
+    justify-content: space-between;
+    
+    /* right: 5%; */
+}
+.login-btn
+{
+    padding: 2px 5px;
+    font-weight: bold;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    /* right: 5% */
+}
+
+.btn-English
+{
+    background-color: rgba(0, 0, 0, 0.064);
+    border: 1px solid rgba(211, 211, 211, 0.564);
+    /* font-weight: bold; */
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    /* position: absolute; */
+    margin-left: 5%;
+
+}
+
+.sub-title
+{
+    font-size: 26px;
+}
+.desc
+{
+    font-size: 18px;
+}
+
+.content-input
+{
+    width: 330px;
+    height: 30px;
+    padding: 14px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.283);
+    border: 1px solid rgba(211, 211, 211, 0.372);
+    border-radius: 4px;
+    color: white;
+}
+.content-flex
+{
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.content-btn
+{
+    padding: 14px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    width: 190px;
+    height: 58px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.mt
+{
+    margin-top: 6px;
+    gap: px;
+    align-items: center;
+}
+.border6
+{
+    border-bottom: 10px solid rgba(211, 211, 211, 0.114);
+}
+.border1
+{
+    border-bottom: 10px solid rgba(211, 211, 211, 0.114);
+    margin-top: 39%;
+}
+.border2
+{
+    border-bottom: 10px solid rgba(211, 211, 211, 0.114);
+    margin-top: 39%;
+}
+.border3
+{
+    border-bottom: 10px solid rgba(211, 211, 211, 0.114);
+    margin-top: 39%;
+}
+.border4
+{
+    border-bottom: 10px solid rgba(211, 211, 211, 0.114);
+    margin-top: 40%;
+}
+
+.container{
+    position: absolute;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 9%;
+    margin-top: -44%;
+    align-items: center;
+    /* padding-top: -50px; */
+}
+.left
+{
+    width: 50%;
+    padding-top: 40px;
+}
+.right{
+    width: 50%;
+    align-items: center;
+}
+.img1{
+    position: relative;
+    width: 90%;
+}
+.video1{
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 73px;
+    /* padding: 49px; */
+    height: 34%;
+}
+.heading{
+    font-size: 58px;
+    margin-top: -30px;
+}
+.sub-heading{
+    font-size: 28px;
+    margin-top: -30px;
+}
+
+.container2{
+    position: absolute;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 9%;
+    margin-top: -44%;
+    align-items: center;
+}
+.img2{
+    position: relative;
+    width: 90%;
+    margin-top: 20px;
+}
+.video2{
+    position: absolute;
+    width: 23%;
+    padding: 32px;
+    margin-left: 58px;
+    margin-top: 30px;
+}
+.left2{
+    width: 50%;
+}
+.right2{
+    width: 50%;
+}
+.container1{
+    position: absolute;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 9%;
+    margin-top: -44%;
+    align-items: center;
+}
+.left1
+{
+    width: 40%;
+    padding-top: 40px;
+}
+.right1{
+    width: 50%;
+    align-items: center;
+}
+.img{
+    position: relative;
+    width: 70%;
+    margin-left: 90px;
+    /* margin-top: 30px; */
+}
+.video{
+    position: absolute;
+    /* padding: 49px; */
+    height: 34%;
+}
+.container3{
+    position: absolute;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 9%;
+    align-items: center;
+    margin-top: -44%;
+}
+.left3
+{
+    width: 50%;
+    
+}
+.right3{
+    width: 45%;
+    padding-top: 40px;
+}
+.img3{
+    position: relative;
+    width: 550px;
+    margin-left: 50px;
+    /* margin-top: 30px; */
+}
+.video{
+    position: absolute;
+    /* padding: 49px; */
+    height: 34%;
+}
+.box{
+    color: white;
+    display: flex;
+    /* border: 2px solid lightgray; */
+    background-color: rgb(45 , 45, 45);
+    margin-top: 10px;
+    height: 80px;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+.Questions{
+    color: white;
+    margin-left: 27.5%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.con{
+    margin-top: 5%;
+    /* margin-bottom: 15%; */
+}
+.final-input{
+    width: 450px;
+   
+
+}
+.margin{
+    margin: 50px auto;
+}
+
+.border5
+{
+    border-bottom: 10px solid rgba(211, 211, 211, 0.114);
+    margin-top: 40%;
+}
